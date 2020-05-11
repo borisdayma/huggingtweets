@@ -2,3 +2,4 @@ wandb
 transformers
 jupyterlab
 tweepy
+torch

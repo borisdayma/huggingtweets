@@ -10,6 +10,7 @@ wandb = "*"
 transformers = "*"
 jupyterlab = "*"
 tweepy = "*"
+torch = "*"
 
 [requires]
 python_version = "3.8"
