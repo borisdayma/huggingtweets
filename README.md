@@ -17,8 +17,6 @@ Training and results are logged on [W&B](https://docs.wandb.com/huggingface) (wh
 1. Install dependencies through `requirements.txt`, `Pipfile` or manually.
 2. Follow the notebook `huggingtweets.ipynb` (I like to use Jupyter Lab).
 
-   ![alt text](imgs/results.png)
-
 ## Results
 
 A few interesting points:
