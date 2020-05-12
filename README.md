@@ -6,7 +6,7 @@ Disclaimer: this demo is not to be used to publish any false generated informati
 
 ## Introduction
 
-This project fine-tune a pre-trained transformer on a user's tweets using [HuggingFace](https://huggingface.co/).
+This project fine-tunes a pre-trained transformer on a user's tweets using [HuggingFace](https://huggingface.co/).
 
 Training and results are logged on [W&B](https://docs.wandb.com/huggingface) (which is integrated in HuggingFace).
 
