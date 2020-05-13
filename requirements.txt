@@ -3,3 +3,4 @@ transformers
 jupyterlab
 tweepy
 torch
+voila

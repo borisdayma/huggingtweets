@@ -11,6 +11,7 @@ transformers = "*"
 jupyterlab = "*"
 tweepy = "*"
 torch = "*"
+voila = "*"
 
 [requires]
 python_version = "3.8"
