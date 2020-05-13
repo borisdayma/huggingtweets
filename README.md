@@ -14,14 +14,14 @@ Training and results are logged on [W&B](https://docs.wandb.com/huggingface) (wh
 
 ## Usage
 
+If you just want to test the demo, click on below link and share your predictions on Twitter with `#huggingtweets`!
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/borisdayma/huggingtweets/master?urlpath=%2Fvoila%2Frender%2Fhuggingtweets-demo.ipynb)
+
+For Machine Learning Practitioners:
+
 1. Install dependencies through `requirements.txt`, `Pipfile` or manually.
-2. Run one of the notebooks (I like to use Jupyter Lab):
-
-    a. If you just want a quick demo, use `huggingtweets-quick_demo.ipynb`
-
-    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets-quick_demo.ipynb)
-
-    b. If you want to understand more details and control how to fine-tune your model for best results, use `huggingtweets.ipynb`
+2. Run `huggingtweets.ipynb`
 
     [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets.ipynb)
 
@@ -37,12 +37,12 @@ I had a lot of fun running predictions on other people too!
 
 Quick notes:
 
-* we can get pretty impressive results on very tiny datasets (100 kB) ;
-* predictions are definitely better the more data we have (too bad we're limited to only 3200 tweets) ;
-* if you don't have enough data just try a few different seeds to see if you get something interesting ;
-* I thought it would mainly memorize tweets but there's definitely creativity.
+* I'm still amazed that we get such results on these tiny datasets (100 kB) ;
+* I thought it would mainly memorize tweets but there's definitely some unique content ;
+* Predictions are definitely better the more data we have (too bad we're limited to "only" 3200 tweets) ;
+* If you don't have enough data just try a few different seeds to see if you get something interesting.
 
-Please try it and share your experiments!
+Try it and share your experiments!
 
 ## Future research
 
@@ -56,3 +56,15 @@ Lot more research to do:
 * what about hashtags? #ConvNets #iloveGANs ;
 * need to test more models and do some fine-tuning ;
 * pre-train on large Twitter dataset of many people on fine-tune on single user!
+
+## Acknowledgements
+
+I was able to make the first version of this program in just a few days.
+It would not have been possible without these people and these open-source tools:
+
+* [W&B](http://docs.wandb.com/) for the great tracking & visualization tools for tracking ML experiments
+* [Huggingface](https://huggingface.co/) for providing a great framework for Natural Language Understanding
+* [Tweepy](https://www.tweepy.org/) for providing a great API to interact with Twitter (used in the dev notebook)
+* Chris Van Pelt for building the API to download tweets in the production demo
+* [Voilà](https://github.com/voila-dashboards/voila) for making it easy to create a UI from a Jupyter Notebook
+* [Binder](https://mybinder.org/) for a quick deployment to multiple instances
