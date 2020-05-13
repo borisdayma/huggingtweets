@@ -17,11 +17,13 @@ Training and results are logged on [W&B](https://docs.wandb.com/huggingface) (wh
 1. Install dependencies through `requirements.txt`, `Pipfile` or manually.
 2. Run one of the notebooks (I like to use Jupyter Lab):
 
-    a. If you want to understand all the details and control how to fine-tune your model for best results, use `huggingtweets.ipynb`.
-
-    b. If you just want a quick demo, use below link or open `huggingtweets-quick_demo.ipynb` locally
+    a. If you just want a quick demo, use `huggingtweets-quick_demo.ipynb`
 
     [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets-quick_demo.ipynb)
+
+    b. If you want to understand more details and control how to fine-tune your model for best results, use `huggingtweets.ipynb`
+
+    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets.ipynb)
 
 ## Results
 
