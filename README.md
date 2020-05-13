@@ -62,7 +62,7 @@ Lot more research to do:
 I was able to make the first version of this program in just a few days.
 It would not have been possible without these people and these open-source tools:
 
-* [W&B](http://docs.wandb.com/) for the great tracking & visualization tools for tracking ML experiments
+* [W&B](http://docs.wandb.com/) for the great tracking & visualization tools for ML experiments
 * [Huggingface](https://huggingface.co/) for providing a great framework for Natural Language Understanding
 * [Tweepy](https://www.tweepy.org/) for providing a great API to interact with Twitter (used in the dev notebook)
 * Chris Van Pelt for building the API to download tweets in the production demo
