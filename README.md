@@ -10,7 +10,7 @@ This project fine-tunes a pre-trained transformer on a user's tweets using [Hugg
 
 Training and results are logged on [W&B](https://docs.wandb.com/huggingface) (which is integrated in HuggingFace).
 
-![](https://i.imgur.com/vnejHGh.png)
+![Huggingface + W&B](https://i.imgur.com/vnejHGh.png)
 
 ## Usage
 
@@ -20,7 +20,7 @@ Training and results are logged on [W&B](https://docs.wandb.com/huggingface) (wh
     a. If you want to understand all the details and control how to fine-tune your model for best results, use `huggingtweets.ipynb`.
 
     b. If you just want a quick demo, use below link or open `huggingtweets-quick_demo.ipynb` locally
-   
+
     [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets-quick_demo.ipynb)
 
 ## Results
@@ -31,7 +31,14 @@ My favorite sample is definitely on Andrej Karpathy, start of sentence "I don't 
 
 I had a lot of fun running predictions on other people too!
 
-[See the live report → ](https://app.wandb.ai/borisd13/huggingface-twitter?workspace=user-borisd13)
+### [See the live report → ](https://app.wandb.ai/borisd13/huggingface-twitter?workspace=user-borisd13)
+
+Quick notes:
+
+* we can get pretty impressive results on very tiny datasets (100 kB) ;
+* predictions are definitely better the more data we have (too bad we're limited to only 3200 tweets) ;
+* if you don't have enough data just try a few different seeds to see if you get something interesting ;
+* I thought it would mainly memorize tweets but there's definitely creativity.
 
 Please try it and share your experiments!
 
@@ -39,9 +46,7 @@ Please try it and share your experiments!
 
 Lot more research to do:
 
-* pretty impressive results on such tiny datasets (100 kB) ;
-* predictions are definitely better the more data we have (too bad we're limited to only 3200 tweets) ; if you don't have enough data just try a few different seeds to see if you get something interesting ;
-* I thought it would mainly memorize tweets but there's definitely creativity ; I want to test training top layers vs bottom layers to see how it affects learning of lexical field (subject of content) vs memorizing words ;
+* test training top layers vs bottom layers to see how it affects learning of lexical field (subject of content) vs word predictions, memorization vs creativity ;
 * losses are not the same based on people (Karpathy is the hardest to predict) ;
 * data pre-processing can be optimized (padding, end tokens…) ;
 * I could augment text data ;
