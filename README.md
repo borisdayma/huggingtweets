@@ -16,7 +16,7 @@ Training and results are logged on [W&B](https://docs.wandb.com/huggingface) (wh
 
 If you just want to test the demo, click on below link and share your predictions on Twitter with `#huggingtweets`!
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets-demo.ipynb)
 
 For Machine Learning Practitioners, use the full version:
 
