@@ -66,5 +66,6 @@ It would not have been possible without these people and these open-source tools
 * [Huggingface](https://huggingface.co/) for providing a great framework for Natural Language Understanding
 * [Tweepy](https://www.tweepy.org/) for providing a great API to interact with Twitter (used in the dev notebook)
 * Chris Van Pelt for building the API to download tweets in the production demo
-* [Voilà](https://github.com/voila-dashboards/voila) for making it easy to create a UI from a Jupyter Notebook
-* [Binder](https://mybinder.org/) for a quick deployment to multiple instances
+* [Voilà](https://github.com/voila-dashboards/voila) for making it easy to create a great local UI from a Jupyter Notebook (just wish it integrated with Colab)
+* [Binder](https://mybinder.org/) for a quick deployment to multiple instances (too bad it's missing GPU...)
+* [Colab](https://colab.research.google.com/) for letting people access free GPU
