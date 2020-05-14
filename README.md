@@ -16,9 +16,9 @@ Training and results are logged on [W&B](https://docs.wandb.com/huggingface) (wh
 
 If you just want to test the demo, click on below link and share your predictions on Twitter with `#huggingtweets`!
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/borisdayma/huggingtweets/master?urlpath=%2Fvoila%2Frender%2Fhuggingtweets-demo.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets.ipynb)
 
-For Machine Learning Practitioners:
+For Machine Learning Practitioners, use the full version:
 
 1. Install dependencies through `requirements.txt`, `Pipfile` or manually.
 2. Run `huggingtweets.ipynb`
