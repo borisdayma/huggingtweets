@@ -2,7 +2,9 @@
 
 *Tweet Generation with Huggingface*
 
-Disclaimer: this demo is not to be used to publish any false generated information but to perform research on Natural Language Generation (NLG).
+Disclaimer: this project is not to be used to publish any false generated information but to perform research on Natural Language Generation (NLG).
+
+## [→ Try the demo](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets-demo.ipynb)
 
 ## Introduction
 
@@ -18,12 +20,9 @@ If you just want to test the demo, click on below link and share your prediction
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets-demo.ipynb)
 
-For Machine Learning Practitioners, use the full version:
+To understand how the model works, check [`huggingtweets.ipynb`](huggingtweets.ipynb) or use the following link.
 
-1. Install dependencies through `requirements.txt`, `Pipfile` or manually.
-2. Run `huggingtweets.ipynb`
-
-    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets.ipynb)
 
 ## Results
 
@@ -33,7 +32,7 @@ My favorite sample is definitely on Andrej Karpathy, start of sentence "I don't 
 
 I had a lot of fun running predictions on other people too!
 
-### [See the live report → ](https://app.wandb.ai/borisd13/huggingface-twitter?workspace=user-borisd13)
+### [See the live report → ](https://app.wandb.ai/borisd13/huggingface-twitter/reports/HuggingTweets-Generate-Tweets-with-Huggingface--VmlldzoxMDcxNDY)
 
 Quick notes:
 
@@ -56,6 +55,11 @@ Lot more research to do:
 * what about hashtags? #ConvNets #iloveGANs ;
 * need to test more models and do some fine-tuning ;
 * pre-train on large Twitter dataset of many people on fine-tune on single user!
+
+## Resources
+
+* [A Step by Step Guide to Tracking Hugging Face Model Performance](https://app.wandb.ai/jxmorris12/huggingface-demo/reports/A-Step-by-Step-Guide-to-Tracking-Hugging-Face-Model-Performance--VmlldzoxMDE2MTU)
+* [W&B Forum](http://bit.ly/wandb-forum): If you have any questions, reach out to the slack community
 
 ## Acknowledgements
 
