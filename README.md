@@ -1,8 +1,6 @@
 # HuggingTweets
 
-*Tweet Generation with Huggingface*
-
-Disclaimer: this project is not to be used to publish any false generated information but to perform research on Natural Language Generation (NLG).
+Train in 5m your own Neural Network on someone's tweets and tweet them back your awesome predictions!
 
 ## [→ Try the demo](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets-demo.ipynb)
 
@@ -34,15 +32,6 @@ I had a lot of fun running predictions on other people too!
 
 ### [See the live report → ](https://app.wandb.ai/borisd13/huggingface-twitter/reports/HuggingTweets-Generate-Tweets-with-Huggingface--VmlldzoxMDcxNDY)
 
-Quick notes:
-
-* I'm still amazed that we get such results on these tiny datasets (100 kB) ;
-* I thought it would mainly memorize tweets but there's definitely some unique content ;
-* Predictions are definitely better the more data we have (too bad we're limited to "only" 3200 tweets) ;
-* If you don't have enough data just try a few different seeds to see if you get something interesting.
-
-Try it and share your experiments!
-
 ## Future research
 
 Lot more research to do:
@@ -55,6 +44,23 @@ Lot more research to do:
 * what about hashtags? #ConvNets #iloveGANs ;
 * need to test more models and do some fine-tuning ;
 * pre-train on large Twitter dataset of many people on fine-tune on single user!
+* implement a pipeline continuously train the network on new tweets.
+
+## About
+
+*Built by Boris Dayma*
+
+[![Follow](https://img.shields.io/twitter/follow/borisdayma?style=social)](https://twitter.com/borisdayma)
+
+My main goals with this project are:
+* to experiment with how to train, deploy and maintain neural networks in production ;
+* to make AI accessible to everyone.
+
+To see how the model works, visit the project repository.
+
+[![GitHub stars](https://img.shields.io/github/stars/borisdayma/huggingtweets?style=social)](https://github.com/borisdayma/huggingtweets)
+
+*Disclaimer: this project is not to be used to publish any false generated information but to perform research on Natural Language Generation.*
 
 ## Resources
 
@@ -64,12 +70,12 @@ Lot more research to do:
 ## Acknowledgements
 
 I was able to make the first version of this program in just a few days.
+
 It would not have been possible without these people and these open-source tools:
 
-* [W&B](http://docs.wandb.com/) for the great tracking & visualization tools for ML experiments
-* [Huggingface](https://huggingface.co/) for providing a great framework for Natural Language Understanding
-* [Tweepy](https://www.tweepy.org/) for providing a great API to interact with Twitter (used in the dev notebook)
-* Chris Van Pelt for building the API to download tweets in the production demo
-* [Voilà](https://github.com/voila-dashboards/voila) for making it easy to create a great local UI from a Jupyter Notebook (just wish it integrated with Colab)
-* [Binder](https://mybinder.org/) for a quick deployment to multiple instances (too bad it's missing GPU...)
-* [Colab](https://colab.research.google.com/) for letting people access free GPU
+* [W&B](http://docs.wandb.com/) for the great tracking & visualization tools for ML experiments ;
+* [Huggingface](https://huggingface.co/) for providing a great framework for Natural Language Understanding ;
+* [Tweepy](https://www.tweepy.org/) for providing a great API to interact with Twitter (used in the dev notebook) ;
+* [Chris Van Pelt](https://github.com/vanpelt) for building the API to download tweets in the demo ;
+* [Lavanya Shukla](https://github.com/lavanyashukla) for helping me make the demo look so much better ;
+* [Colab](https://colab.research.google.com/) for letting people access free GPU!
