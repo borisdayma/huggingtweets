@@ -39,11 +39,11 @@ Lot more research to do:
 * test training top layers vs bottom layers to see how it affects learning of lexical field (subject of content) vs word predictions, memorization vs creativity ;
 * losses are not the same based on people (Karpathy is the hardest to predict) ;
 * data pre-processing can be optimized (padding, end tokens…) ;
-* I could augment text data ;
-* do I keep `@` handles or better to use names ;
+* augment text data with adversarial approaches ;
 * what about hashtags? #ConvNets #iloveGANs ;
 * need to test more models and do some fine-tuning ;
-* pre-train on large Twitter dataset of many people on fine-tune on single user!
+* pre-train on large Twitter dataset of many people and fine-tune on single user!
+* try few shots learning as we have very limited data per user (there is only a limited number of writing styles)
 * implement a pipeline continuously train the network on new tweets.
 
 ## About
@@ -53,6 +53,7 @@ Lot more research to do:
 [![Follow](https://img.shields.io/twitter/follow/borisdayma?style=social)](https://twitter.com/borisdayma)
 
 My main goals with this project are:
+
 * to experiment with how to train, deploy and maintain neural networks in production ;
 * to make AI accessible to everyone.
 
@@ -76,6 +77,6 @@ It would not have been possible without these people and these open-source tools
 * [W&B](http://docs.wandb.com/) for the great tracking & visualization tools for ML experiments ;
 * [Huggingface](https://huggingface.co/) for providing a great framework for Natural Language Understanding ;
 * [Tweepy](https://www.tweepy.org/) for providing a great API to interact with Twitter (used in the dev notebook) ;
-* [Chris Van Pelt](https://github.com/vanpelt) for building the API to download tweets in the demo ;
-* [Lavanya Shukla](https://github.com/lavanyashukla) for helping me make the demo look so much better ;
+* [Chris Van Pelt](https://github.com/vanpelt) for hacking with me on the demo ;
+* [Lavanya Shukla](https://github.com/lavanyashukla) for her great feedback on the demo ;
 * [Colab](https://colab.research.google.com/) for letting people access free GPU!
