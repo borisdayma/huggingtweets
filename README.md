@@ -61,7 +61,7 @@ To see how the model works, visit the project repository.
 
 [![GitHub stars](https://img.shields.io/github/stars/borisdayma/huggingtweets?style=social)](https://github.com/borisdayma/huggingtweets)
 
-*Disclaimer: this project is not to be used to publish any false generated information but to perform research on Natural Language Generation.*
+**Disclaimer: this project is not to be used to publish any false generated information but to perform research on Natural Language Generation.**
 
 ## Resources
 
