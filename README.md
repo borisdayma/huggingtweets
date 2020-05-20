@@ -63,6 +63,14 @@ To see how the model works, visit the project repository.
 
 **Disclaimer: this project is not to be used to publish any false generated information but to perform research on Natural Language Generation.**
 
+## FAQ
+
+1. Why is the demo in colab instead of being a real web app?
+
+   It actually looks much better with [Voilà](https://github.com/voila-dashboards/voila) as the code cells are hidden and automatically executed. Also we can easily deploy it through for free through [Binder](https://mybinder.org/).
+   
+   However training such large neural networks require GPU (not available on Binder) and I wanted to make huggingtweets accessible to everybody. [Google Colab](https://colab.research.google.com/) generously offers free GPU so is the perfect place to host this demo.
+
 ## Resources
 
 * [A Step by Step Guide to Tracking Hugging Face Model Performance](https://app.wandb.ai/jxmorris12/huggingface-demo/reports/A-Step-by-Step-Guide-to-Tracking-Hugging-Face-Model-Performance--VmlldzoxMDE2MTU)
