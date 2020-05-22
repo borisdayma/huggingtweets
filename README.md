@@ -1,14 +1,14 @@
 # HuggingTweets
 
-Train in 5m your own Neural Network on someone's tweets and tweet them back your awesome predictions!
+Train in 5m your own Neural Network on someone's tweets and tweet them back your predictions!
 
-## [→ Try the demo](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets-demo.ipynb)
+## [Try the demo →](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets-demo.ipynb)
 
 ## Introduction
 
 This project fine-tunes a pre-trained transformer on a user's tweets using [HuggingFace](https://huggingface.co/).
 
-Training and results are logged on [W&B](https://docs.wandb.com/huggingface) (which is integrated in HuggingFace).
+Training and results are automatically logged on [W&B](https://docs.wandb.com) through the [HuggingFace integration](https://docs.wandb.com/huggingface).
 
 ![Huggingface + W&B](https://i.imgur.com/vnejHGh.png)
 
@@ -30,21 +30,20 @@ My favorite sample is definitely on Andrej Karpathy, start of sentence "I don't 
 
 I had a lot of fun running predictions on other people too!
 
-### [See the live report → ](https://app.wandb.ai/borisd13/huggingface-twitter/reports/HuggingTweets-Generate-Tweets-with-Huggingface--VmlldzoxMDcxNDY)
+### [See the live report → ](https://app.wandb.ai/wandb/huggingtweets/reports/Huggingtweets-Generate-Tweets-with-Huggingface--VmlldzoxMTY5MjI)
 
 ## Future research
 
 Lot more research to do:
 
 * test training top layers vs bottom layers to see how it affects learning of lexical field (subject of content) vs word predictions, memorization vs creativity ;
-* losses are not the same based on people (Karpathy is the hardest to predict) ;
-* data pre-processing can be optimized (padding, end tokens…) ;
+* data pre-processing can be optimized (padding, end tokens, definition of one sample…) ;
 * augment text data with adversarial approaches ;
 * what about hashtags? #ConvNets #iloveGANs ;
 * need to test more models and do some fine-tuning ;
 * pre-train on large Twitter dataset of many people and fine-tune on single user!
 * try few shots learning as we have very limited data per user (there is only a limited number of writing styles)
-* implement a pipeline continuously train the network on new tweets.
+* implement a pipeline to continuously train the network on new tweets.
 
 ## About
 
@@ -65,11 +64,19 @@ To see how the model works, visit the project repository.
 
 ## FAQ
 
+1. Does this project pose a risk of being used for disinformation?
+
+    Large NLP models can be misused to publish false data. OpenAI performed a [staged release of GPT-2](https://openai.com/blog/gpt-2-6-month-follow-up/) to study any potential misuse of their models.
+
+    I want to ensure latest AI technologies are accessible to everyone to ensure fairness and prevent social inequality.
+
+    Huggingtweets shall not be used for creating innapropriate content, nor for any illicit or unethical purposes. Any generated text from other users tweets must explicitly be referenced as such and cannot be published with the intent of hiding their origin. No generated content can be published against a person unwilling to have their data used as such.
+
 1. Why is the demo in colab instead of being a real web app?
 
-   It actually looks much better with [Voilà](https://github.com/voila-dashboards/voila) as the code cells are hidden and automatically executed. Also we can easily deploy it through for free through [Binder](https://mybinder.org/).
-   
-   However training such large neural networks require GPU (not available on Binder) and I wanted to make huggingtweets accessible to everybody. [Google Colab](https://colab.research.google.com/) generously offers free GPU so is the perfect place to host this demo.
+    It actually looks much better with [Voilà](https://github.com/voila-dashboards/voila) as the code cells are hidden and automatically executed. Also we can easily deploy it through for free through [Binder](https://mybinder.org/).
+
+    However training such large neural networks require GPU (not available on Binder) and I wanted to make huggingtweets accessible to everybody. [Google Colab](https://colab.research.google.com/) generously offers free GPU so is the perfect place to host this demo.
 
 ## Resources
 
