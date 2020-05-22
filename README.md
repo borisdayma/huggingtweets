@@ -18,9 +18,9 @@ If you just want to test the demo, click on below link and share your prediction
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets-demo.ipynb)
 
-To understand how the model works, check [`huggingtweets.ipynb`](huggingtweets.ipynb) or use the following link.
+To understand how the model works, check [`huggingtweets-dev.ipynb`](huggingtweets-dev.ipynb) or use the following link.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets-dev.ipynb)
 
 ## Results
 
