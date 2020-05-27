@@ -34,7 +34,7 @@ My favorite sample is definitely on Andrej Karpathy, start of sentence "I don't 
 
 I had a lot of fun running predictions on other people too!
 
-### [Explore the live report → ](https://app.wandb.ai/wandb/huggingtweets/reports/Huggingtweets-Generate-Tweets-with-Huggingface--VmlldzoxMTY5MjI)
+### [Explore the live report → ](https://bit.ly/2TGXMZf)
 
 ## Future research
 
