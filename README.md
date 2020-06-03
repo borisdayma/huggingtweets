@@ -46,7 +46,8 @@ Lot more interesting research to do:
 * test more models and do some fine-tuning ;
 * pre-train on large Twitter dataset of many people ;
 * explore few-shot learning approaches as we have limited data per user though there are probably only few writing styles ;
-* implement a pipeline to continuously train the network on new tweets.
+* implement a pipeline to continuously train the network on new tweets ;
+* cluster users and identify topics, writing style…
 
 ## About
 
