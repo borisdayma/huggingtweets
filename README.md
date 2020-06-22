@@ -38,8 +38,9 @@ I had a lot of fun running predictions on other people too!
 
 ## Future research
 
-Lot more interesting research to do:
+I still have more research to do:
 
+* evaluate how to "merge" two different personalities ;
 * test training top layers vs bottom layers to see how it affects learning of lexical field (subject of content) vs word predictions, memorization vs creativity ;
 * data pre-processing can be optimized (padding, end tokens, definition of one sample…) ;
 * augment text data with adversarial approaches ;
