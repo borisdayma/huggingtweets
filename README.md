@@ -8,7 +8,7 @@
 
 ## Introduction
 
-I developed HuggingTweets to try to predict Elon Musk's next breakthrough ;)
+I developed HuggingTweets to try to predict Elon Musk's next breakthrough 😉
 
 ![huggingtweets illustration](https://i.imgur.com/MXKx10d.png)
 
@@ -22,7 +22,7 @@ To test the demo, click on below link and share your predictions on Twitter with
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets-demo.ipynb)
 
-If you want to set it up locally, you can also install the dependencies with `pipenv` or `conda` and use [`huggingtweets-demo.ipynb`](huggingtweets-demo.ipynb)
+You can also use it locally by installing the dependencies with `pipenv` or `pip` and use [`huggingtweets-demo.ipynb`](huggingtweets-demo.ipynb)
 
 ## Results
 
