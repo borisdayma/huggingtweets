@@ -12,9 +12,9 @@ I developed HuggingTweets to try to predict Elon Musk's next breakthrough 😉
 
 ![huggingtweets illustration](https://i.imgur.com/MXKx10d.png)
 
-This project fine-tunes a pre-trained transformer on a user's tweets using [HuggingFace](https://huggingface.co/), an awesome open source library for Natural Language Processing.
+This project fine-tunes a pre-trained neural network on a user's tweets using [HuggingFace Transformers](https://huggingface.co/), an awesome open source library for Natural Language Processing. The resulting model can then generate new tweets for you!
 
-Training and results are automatically logged on [W&B](https://docs.wandb.com) through the [HuggingFace integration](https://docs.wandb.com/huggingface).
+Training and results are automatically logged into [W&B](https://docs.wandb.com) through the [HuggingFace integration](https://docs.wandb.com/huggingface).
 
 ## Usage
 
@@ -66,7 +66,7 @@ My main goals with this project are:
 * to make AI accessible to everyone ;
 * to have fun!
 
-To see how the model works, visit the project repository.
+For more details, visit the project repository.
 
 [![GitHub stars](https://img.shields.io/github/stars/borisdayma/huggingtweets?style=social)](https://github.com/borisdayma/huggingtweets)
 
@@ -90,8 +90,13 @@ To see how the model works, visit the project repository.
 
 ## Resources
 
-* [A Step by Step Guide to Tracking Hugging Face Model Performance](https://app.wandb.ai/jxmorris12/huggingface-demo/reports/A-Step-by-Step-Guide-to-Tracking-Hugging-Face-Model-Performance--VmlldzoxMDE2MTU)
-* [W&B Forum](http://bit.ly/wandb-forum): If you have any questions, reach out to the slack community
+* [Explore the W&B report](https://bit.ly/2TGXMZf) to understand how the model works
+* [HuggingFace and W&B integration documentation](https://docs.wandb.com/library/integrations/huggingface)
+* [A step by step guide](https://app.wandb.ai/jxmorris12/huggingface-demo/reports/A-Step-by-Step-Guide-to-Tracking-Hugging-Face-Model-Performance--VmlldzoxMDE2MTU): track your HuggingFace model performance
+
+## Got questions about W&B?
+
+If you have any questions about using W&B to track your model performance and predictions, please reach out to the [slack community](http://bit.ly/wandb-forum).
 
 ## Acknowledgements
 
