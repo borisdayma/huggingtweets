@@ -10,7 +10,7 @@
 
 I developed HuggingTweets to try to predict Elon Musk's next breakthrough 😉
 
-![huggingtweets illustration](https://i.imgur.com/MXKx10d.png)
+![huggingtweets illustration](img/example.png)
 
 This project fine-tunes a pre-trained neural network on a user's tweets using [HuggingFace Transformers](https://huggingface.co/), an awesome open source library for Natural Language Processing. The resulting model can then generate new tweets for you!
 
