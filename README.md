@@ -34,7 +34,7 @@ I had a lot of fun running predictions on other people too!
 
 ## How does it work?
 
-To understand how the model works, check my [W&B report](https://bit.ly/2TGXMZf).
+To understand how the model was developed, check my [W&B report](https://bit.ly/2TGXMZf).
 
 You can also explore the development version
 [`huggingtweets-dev.ipynb`](huggingtweets-dev.ipynb) or use the following link.
