@@ -2,29 +2,27 @@
 
 *Create in 5 minutes a tweet generator based on your favorite Tweeter*
 
-I developed HuggingTweets to try to predict Elon Musk's next breakthrough ;)
+![HuggingTweets](img/logo.png)
 
-![huggingtweets illustration](https://i.imgur.com/MXKx10d.png)
-
-## [Try the demo →](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets-demo.ipynb)
+## [Make my own model with the demo →](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets-demo.ipynb)
 
 ## Introduction
+
+I developed HuggingTweets to try to predict Elon Musk's next breakthrough 😉
+
+![huggingtweets illustration](https://i.imgur.com/MXKx10d.png)
 
 This project fine-tunes a pre-trained transformer on a user's tweets using [HuggingFace](https://huggingface.co/), an awesome open source library for Natural Language Processing.
 
 Training and results are automatically logged on [W&B](https://docs.wandb.com) through the [HuggingFace integration](https://docs.wandb.com/huggingface).
 
-![Huggingface + W&B](https://i.imgur.com/vnejHGh.png)
-
 ## Usage
 
-If you just want to test the demo, click on below link and share your predictions on Twitter with `#huggingtweets`!
+To test the demo, click on below link and share your predictions on Twitter with `#huggingtweets`!
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets-demo.ipynb)
 
-To understand how the model works, check [`huggingtweets-dev.ipynb`](huggingtweets-dev.ipynb) or use the following link.
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets-dev.ipynb)
+You can also use it locally by installing the dependencies with `pipenv` or `pip` and use [`huggingtweets-demo.ipynb`](huggingtweets-demo.ipynb)
 
 ## Results
 
@@ -34,7 +32,14 @@ My favorite sample is definitely on Andrej Karpathy, start of sentence "I don't 
 
 I had a lot of fun running predictions on other people too!
 
-### [Explore the live report → ](https://bit.ly/2TGXMZf)
+## How does it work?
+
+To understand how the model works, check my [W&B report](https://bit.ly/2TGXMZf).
+
+You can also explore the development version
+[`huggingtweets-dev.ipynb`](huggingtweets-dev.ipynb) or use the following link.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets-dev.ipynb)
 
 ## Future research
 
@@ -42,7 +47,6 @@ I still have more research to do:
 
 * evaluate how to "merge" two different personalities ;
 * test training top layers vs bottom layers to see how it affects learning of lexical field (subject of content) vs word predictions, memorization vs creativity ;
-* data pre-processing can be optimized (padding, end tokens, definition of one sample…) ;
 * augment text data with adversarial approaches ;
 * test more models and do some fine-tuning ;
 * pre-train on large Twitter dataset of many people ;
@@ -59,7 +63,8 @@ I still have more research to do:
 My main goals with this project are:
 
 * to experiment with how to train, deploy and maintain neural networks in production ;
-* to make AI accessible to everyone.
+* to make AI accessible to everyone ;
+* to have fun!
 
 To see how the model works, visit the project repository.
 
