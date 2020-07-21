@@ -74,6 +74,6 @@ For more details, visit the project repository.
 
 [![GitHub stars](https://img.shields.io/github/stars/borisdayma/huggingtweets?style=social)](https://github.com/borisdayma/huggingtweets)
 
-<a href="https://huggingface.co/exbert/?model=gpt2&modelKind=autoregressive&sentence=I%20love%20huggingtweets!&layer=11">
+<a href="https://huggingface.co/exbert/?model=huggingtweets/USER_HANDLE&modelKind=autoregressive&sentence=I%20love%20huggingtweets!&layer=11">
 	<img width="300px" src="https://hf-dinosaur.huggingface.co/exbert/button.png">
 </a>
