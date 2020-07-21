@@ -26,9 +26,9 @@ Create your own bot based on your favorite user with [the demo](https://colab.re
 You can use this model directly with a pipeline for text generation:
 
 ```python
->>> from transformers import pipeline
->>> generator = pipeline('text-generation', model='huggingtweets/USER_HANDLE')
->>> generator("My dream is", max_length=50, num_return_sequences=5)
+from transformers import pipeline
+generator = pipeline('text-generation', model='huggingtweets/USER_HANDLE')
+generator("My dream is", max_length=50, num_return_sequences=5)
 ```
 
 #### Limitations and bias
