@@ -15,9 +15,9 @@ widget:
 <div style="font-size: 15px; color: #657786">@USER_HANDLE bot</div>
 </div>
 
-I was created by [huggingtweets](https://github.com/borisdayma/huggingtweets).
+I was made with [huggingtweets](https://github.com/borisdayma/huggingtweets).
 
-Make your own bot based on your favorite user with [the demo](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets-demo.ipynb).
+Create your own bot based on your favorite user with [the demo](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets-demo.ipynb)!
 
 ## Intended uses & limitations
 
@@ -26,7 +26,7 @@ Make your own bot based on your favorite user with [the demo](https://colab.rese
 You can use this model directly with a pipeline for text generation:
 
 ```python
->>> from transformers import pipeline, set_seed
+>>> from transformers import pipeline
 >>> generator = pipeline('text-generation', model='huggingtweets/USER_HANDLE')
 >>> generator("My dream is", max_length=50, num_return_sequences=5)
 ```
