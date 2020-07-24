@@ -92,7 +92,6 @@ For more details, visit the project repository.
 
 * [Explore the W&B report](https://bit.ly/2TGXMZf) to understand how the model works
 * [HuggingFace and W&B integration documentation](https://docs.wandb.com/library/integrations/huggingface)
-* [A step by step guide](https://app.wandb.ai/jxmorris12/huggingface-demo/reports/A-Step-by-Step-Guide-to-Tracking-Hugging-Face-Model-Performance--VmlldzoxMDE2MTU): track your HuggingFace model performance
 
 ## Got questions about W&B?
 
@@ -105,7 +104,7 @@ I was able to make the first version of this program in just a few days.
 It would not have been possible without these people and these open-source tools:
 
 * [W&B](http://docs.wandb.com/) for the great tracking & visualization tools for ML experiments ;
-* [Huggingface](https://huggingface.co/) for providing a great framework for Natural Language Understanding ;
+* [HuggingFace](https://huggingface.co/) for providing a great framework for Natural Language Understanding ;
 * [Tweepy](https://www.tweepy.org/) for providing a great API to interact with Twitter (used in the dev notebook) ;
 * [Chris Van Pelt](https://github.com/vanpelt) for hacking with me on the demo ;
 * [Lavanya Shukla](https://github.com/lavanyashukla) for her great continuous feedback on the demo ;
