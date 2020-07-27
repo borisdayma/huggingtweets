@@ -46,7 +46,7 @@ The model was trained on [@USER_HANDLE's tweets](https://twitter.com/USER_HANDLE
 
 ## Training procedure
 
-The model is based on a pre-trained [GPT-2](https://huggingface.co/gpt2) which is fine-tuned on @USER_HANDLE's tweets for 4 epochs.
+The model is based on a pre-trained [GPT-2](https://huggingface.co/gpt2) which is fine-tuned on @USER_HANDLE's tweets.
 
 Hyperparameters and metrics are recorded in the [W&B training run](WANDB_TRAIN) for full transparency and reproducibility.
 
