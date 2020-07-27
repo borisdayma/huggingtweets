@@ -18,7 +18,7 @@ Training and results are automatically logged into [W&B](https://docs.wandb.com)
 
 ## Usage
 
-To test the demo, click on below link and share your predictions on Twitter with `#huggingtweets`!
+To test the demo, click on below link and share your predictions!
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets-demo.ipynb)
 
@@ -41,6 +41,8 @@ You can also explore the development version
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/dev/huggingtweets-dev.ipynb)
 
+Required files to run [W&B sweeps](http://docs.wandb.com/) are in [`dev`](dev/) folder.
+
 ## Future research
 
 I still have more research to do:
@@ -48,7 +50,6 @@ I still have more research to do:
 * evaluate how to "merge" two different personalities ;
 * test training top layers vs bottom layers to see how it affects learning of lexical field (subject of content) vs word predictions, memorization vs creativity ;
 * augment text data with adversarial approaches ;
-* test more models and do some fine-tuning ;
 * pre-train on large Twitter dataset of many people ;
 * explore few-shot learning approaches as we have limited data per user though there are probably only few writing styles ;
 * implement a pipeline to continuously train the network on new tweets ;
