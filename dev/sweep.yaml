@@ -5,7 +5,7 @@ metric:
 method: random
 parameters:
   handle:
-    values: ["elonmusk", "karpathy", "l2k", "borisdayma"]
+    values: ["elonmusk", "karpathy", "l2k", "clementdelangue"]
   epochs:
     distribution: int_uniform
     min: 1
@@ -13,7 +13,7 @@ parameters:
   lr_scheduler:
     values: ["constant", "linear", "cosine"]
   percent_warmup_steps:
-    values: [0, 10, 20]
+    values: [0, 0.1, 0.2]
   learning_rate:
     distribution: log_uniform
     min: -14

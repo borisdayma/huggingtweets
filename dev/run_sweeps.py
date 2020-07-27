@@ -10,7 +10,7 @@ consumer_secret = 'NZO7V8Idp8B3FiYy8ifO2DgZn6MgbdCXrCxP8zwasAekSroKjQ'
 # hyperparameters
 hyperparameter_defaults = dict(
     handle = 'l2k',
-    epochs = 1,
+    epochs = 3,
     lr_scheduler = 'constant',
     percent_warmup_steps = 0,
     learning_rate = 5e-5,
@@ -188,6 +188,7 @@ def main(config):
             optimizer,
             num_warmup_steps=int(config.percent_warmup_steps * num_train_steps),
             num_training_steps=num_train_steps)
+    trainer.optimizers = (optimizer, scheduler)
     
     # Train & evaluate
     trainer.train()
