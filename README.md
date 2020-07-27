@@ -37,9 +37,9 @@ I had a lot of fun running predictions on other people too!
 To understand how the model was developed, check my [W&B report](https://bit.ly/2TGXMZf).
 
 You can also explore the development version
-[`huggingtweets-dev.ipynb`](huggingtweets-dev.ipynb) or use the following link.
+[`huggingtweets-dev.ipynb`](dev/huggingtweets-dev.ipynb) or use the following link.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets-dev.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/dev/huggingtweets-dev.ipynb)
 
 ## Future research
 
