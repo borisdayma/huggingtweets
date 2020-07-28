@@ -2,6 +2,16 @@ import tweepy
 import random, re, pathlib, os
 import torch
 import wandb
+from transformers import (
+    AutoTokenizer,
+    AutoModelForCausalLM,
+    TextDataset,
+    DataCollatorForLanguageModeling,
+    Trainer,
+    TrainingArguments,
+    get_constant_schedule_with_warmup,
+    get_cosine_schedule_with_warmup,
+    get_linear_schedule_with_warmup)
 
 # <--- Enter your credentials (don't share with anyone) --->
 consumer_key = 'biaSWTG7Febg0ALoKyWz6EjAH'
@@ -193,9 +203,6 @@ def main(config):
     # Train & evaluate
     trainer.train()
     trainer.evaluate()
-
-from transformers import (
-    AutoTokenizer, AutoModelForCausalLM, TextDataset, DataCollatorForLanguageModeling, Trainer, TrainingArguments, get_constant_schedule_with_warmup, get_cosine_schedule_with_warmup, get_linear_schedule_with_warmup)
 
 if __name__ == '__main__':
     main(config)
