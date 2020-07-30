@@ -14,8 +14,8 @@ from transformers import (
     get_linear_schedule_with_warmup)
 
 # <--- Enter your credentials (don't share with anyone) --->
-consumer_key = 'biaSWTG7Febg0ALoKyWz6EjAH'
-consumer_secret = 'NZO7V8Idp8B3FiYy8ifO2DgZn6MgbdCXrCxP8zwasAekSroKjQ'
+consumer_key = 'XXXXXXXX'
+consumer_secret = 'XXXXXXXX'
 
 # hyperparameters
 hyperparameter_defaults = dict(
