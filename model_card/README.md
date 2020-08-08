@@ -2,7 +2,6 @@
 language: en
 thumbnail: https://github.com/borisdayma/huggingtweets/blob/master/img/logo_share.png?raw=true
 tags:
-- exbert
 - huggingtweets
 widget:
 - text: "My dream is"
@@ -18,10 +17,6 @@ widget:
 I was made with [huggingtweets](https://github.com/borisdayma/huggingtweets).
 
 Create your own bot based on your favorite user with [the demo](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets-demo.ipynb)!
-
-<a href="https://huggingface.co/exbert/?model=huggingtweets/USER_HANDLE&modelKind=autoregressive&sentence=I%20love%20huggingtweets!&layer=11">
-	<img width="300px" src="https://hf-dinosaur.huggingface.co/exbert/button.png">
-</a>
 
 ## How does it work?
 
