@@ -53,7 +53,8 @@ You can use this model directly with a pipeline for text generation:
 
 ```python
 from transformers import pipeline
-generator = pipeline('text-generation', model='huggingtweets/USER_HANDLE')
+generator = pipeline('text-generation',
+                     model='huggingtweets/USER_HANDLE')
 generator("My dream is", max_length=50, num_return_sequences=5)
 ```
 
