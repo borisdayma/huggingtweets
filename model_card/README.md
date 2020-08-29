@@ -76,6 +76,8 @@ The model is based on a pre-trained [GPT-2](https://huggingface.co/gpt2) which i
 
 Hyperparameters and metrics are recorded in the [W&B training run](WANDB_TRAIN) for full transparency and reproducibility.
 
+At the end of training, [the final model](WANDB_TRAIN/artifacts)) is logged and versioned.
+
 ## Intended uses & limitations
 
 ### How to use
