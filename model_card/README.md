@@ -9,6 +9,13 @@ widget:
 
 <link rel="stylesheet" href="https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css">
 
+<style>
+@media (prefers-color-scheme: dark) {
+  .prose { color: #E2E8F0 !important; }
+  .prose h2, .prose h3, .prose a, .prose thead { color: #F7FAFC !important; }
+}
+</style>
+
 <section class='prose'>
 
 <div>
@@ -74,13 +81,6 @@ Hyperparameters and metrics are recorded in the [W&B training run](WANDB_TRAIN) 
 ### How to use
 
 You can use this model directly with a pipeline for text generation:
-
-```python
-from transformers import pipeline
-generator = pipeline('text-generation',
-                     model='huggingtweets/USER_HANDLE')
-generator("My dream is", max_length=50, num_return_sequences=5)
-```
 
 <pre><code><span style="color:#03A9F4">from</span> transformers <span style="color:#03A9F4">import</span> pipeline
 generator = pipeline(<span style="color:#FF9800">'text-generation'</span>,
