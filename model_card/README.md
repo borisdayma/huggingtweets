@@ -35,7 +35,7 @@ The model uses the following pipeline.
 
 ![pipeline](https://github.com/borisdayma/huggingtweets/blob/master/img/pipeline.png?raw=true)
 
-To understand how the model was developed, check the [W&B report](https://bit.ly/2TGXMZf).
+To understand how the model was developed, check the [W&B report](https://app.wandb.ai/wandb/huggingtweets/reports/HuggingTweets-Train-a-model-to-generate-tweets--VmlldzoxMTY5MjI).
 
 ## Training data
 

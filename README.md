@@ -34,7 +34,7 @@ I had a lot of fun running predictions on other people too!
 
 ## How does it work?
 
-To understand how the model was developed, check my [W&B report](https://bit.ly/2TGXMZf).
+To understand how the model was developed, check my [W&B report](https://app.wandb.ai/wandb/huggingtweets/reports/HuggingTweets-Train-a-model-to-generate-tweets--VmlldzoxMTY5MjI).
 
 You can also explore the development version
 [`huggingtweets-dev.ipynb`](dev/huggingtweets-dev.ipynb) or use the following link.
@@ -91,7 +91,7 @@ For more details, visit the project repository.
 
 ## Resources
 
-* [Explore the W&B report](https://bit.ly/2TGXMZf) to understand how the model works
+* [Explore the W&B report](https://app.wandb.ai/wandb/huggingtweets/reports/HuggingTweets-Train-a-model-to-generate-tweets--VmlldzoxMTY5MjI) to understand how the model works
 * [HuggingFace and W&B integration documentation](https://docs.wandb.com/library/integrations/huggingface)
 
 ## Got questions about W&B?
