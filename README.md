@@ -6,6 +6,8 @@
 
 ## [Make my own model with the demo →](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets-demo.ipynb)
 
+#### or [*access existing models →*](https://huggingface.co/models?filter=huggingtweets&sort=natural)
+
 ## Introduction
 
 I developed HuggingTweets to try to predict Elon Musk's next breakthrough 😉
