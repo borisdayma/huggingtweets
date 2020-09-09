@@ -1,0 +1,24 @@
+program: run_sweeps.py
+metric:
+  name: eval_loss
+  goal: minimize
+method: random
+parameters:
+  handle:
+    values: ["elonmusk", "karpathy", "l2k", "clementdelangue"]
+  epochs:
+    distribution: int_uniform
+    min: 1
+    max: 10
+  lr_scheduler:
+    values: ["constant", "linear", "cosine"]
+  percent_warmup_steps:
+    values: [0, 0.1, 0.2]
+  learning_rate:
+    distribution: log_uniform
+    min: -14
+    max: -6
+  gradient_accumulation_steps:
+    values: [1, 4, 8]
+project: huggingtweets
+entity: wandb

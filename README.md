@@ -6,19 +6,21 @@
 
 ## [Make my own model with the demo →](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets-demo.ipynb)
 
+#### or [*access existing models →*](https://huggingface.co/models?filter=huggingtweets&sort=natural)
+
 ## Introduction
 
 I developed HuggingTweets to try to predict Elon Musk's next breakthrough 😉
 
-![huggingtweets illustration](https://i.imgur.com/MXKx10d.png)
+![huggingtweets illustration](img/example.png)
 
-This project fine-tunes a pre-trained transformer on a user's tweets using [HuggingFace](https://huggingface.co/), an awesome open source library for Natural Language Processing.
+This project fine-tunes a pre-trained neural network on a user's tweets using [HuggingFace Transformers](https://huggingface.co/), an awesome open source library for Natural Language Processing. The resulting model can then generate new tweets for you!
 
-Training and results are automatically logged on [W&B](https://docs.wandb.com) through the [HuggingFace integration](https://docs.wandb.com/huggingface).
+Training and results are automatically logged into [W&B](https://docs.wandb.com) through the [HuggingFace integration](https://docs.wandb.com/huggingface).
 
 ## Usage
 
-To test the demo, click on below link and share your predictions on Twitter with `#huggingtweets`!
+To test the demo, click on below link and share your predictions!
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets-demo.ipynb)
 
@@ -34,12 +36,14 @@ I had a lot of fun running predictions on other people too!
 
 ## How does it work?
 
-To understand how the model works, check my [W&B report](https://bit.ly/2TGXMZf).
+To understand how the model was developed, check my [W&B report](https://app.wandb.ai/wandb/huggingtweets/reports/HuggingTweets-Train-a-model-to-generate-tweets--VmlldzoxMTY5MjI).
 
 You can also explore the development version
-[`huggingtweets-dev.ipynb`](huggingtweets-dev.ipynb) or use the following link.
+[`huggingtweets-dev.ipynb`](dev/huggingtweets-dev.ipynb) or use the following link.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets-dev.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/dev/huggingtweets-dev.ipynb)
+
+Required files to run [W&B sweeps](http://docs.wandb.com/) are in [`dev`](dev/) folder.
 
 ## Future research
 
@@ -48,7 +52,6 @@ I still have more research to do:
 * evaluate how to "merge" two different personalities ;
 * test training top layers vs bottom layers to see how it affects learning of lexical field (subject of content) vs word predictions, memorization vs creativity ;
 * augment text data with adversarial approaches ;
-* test more models and do some fine-tuning ;
 * pre-train on large Twitter dataset of many people ;
 * explore few-shot learning approaches as we have limited data per user though there are probably only few writing styles ;
 * implement a pipeline to continuously train the network on new tweets ;
@@ -66,7 +69,7 @@ My main goals with this project are:
 * to make AI accessible to everyone ;
 * to have fun!
 
-To see how the model works, visit the project repository.
+For more details, visit the project repository.
 
 [![GitHub stars](https://img.shields.io/github/stars/borisdayma/huggingtweets?style=social)](https://github.com/borisdayma/huggingtweets)
 
@@ -90,8 +93,12 @@ To see how the model works, visit the project repository.
 
 ## Resources
 
-* [A Step by Step Guide to Tracking Hugging Face Model Performance](https://app.wandb.ai/jxmorris12/huggingface-demo/reports/A-Step-by-Step-Guide-to-Tracking-Hugging-Face-Model-Performance--VmlldzoxMDE2MTU)
-* [W&B Forum](http://bit.ly/wandb-forum): If you have any questions, reach out to the slack community
+* [Explore the W&B report](https://app.wandb.ai/wandb/huggingtweets/reports/HuggingTweets-Train-a-model-to-generate-tweets--VmlldzoxMTY5MjI) to understand how the model works
+* [HuggingFace and W&B integration documentation](https://docs.wandb.com/library/integrations/huggingface)
+
+## Got questions about W&B?
+
+If you have any questions about using W&B to track your model performance and predictions, please reach out to the [slack community](http://bit.ly/wandb-forum).
 
 ## Acknowledgements
 
@@ -100,8 +107,8 @@ I was able to make the first version of this program in just a few days.
 It would not have been possible without these people and these open-source tools:
 
 * [W&B](http://docs.wandb.com/) for the great tracking & visualization tools for ML experiments ;
-* [Huggingface](https://huggingface.co/) for providing a great framework for Natural Language Understanding ;
+* [HuggingFace](https://huggingface.co/) for providing a great framework for Natural Language Understanding ;
 * [Tweepy](https://www.tweepy.org/) for providing a great API to interact with Twitter (used in the dev notebook) ;
 * [Chris Van Pelt](https://github.com/vanpelt) for hacking with me on the demo ;
-* [Lavanya Shukla](https://github.com/lavanyashukla) for her great continuous feedback on the demo ;
+* [Lavanya Shukla](https://github.com/lavanyashukla) and [Carey Phelps](https://github.com/cvphelps) for their continuous feedback ;
 * [Google Colab](https://colab.research.google.com/) for letting people access free GPU!
