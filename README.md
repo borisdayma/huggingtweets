@@ -110,5 +110,5 @@ It would not have been possible without these people and these open-source tools
 * [HuggingFace](https://huggingface.co/) for providing a great framework for Natural Language Understanding ;
 * [Tweepy](https://www.tweepy.org/) for providing a great API to interact with Twitter (used in the dev notebook) ;
 * [Chris Van Pelt](https://github.com/vanpelt) for hacking with me on the demo ;
-* [Lavanya Shukla](https://github.com/lavanyashukla) for her great continuous feedback on the demo ;
+* [Lavanya Shukla](https://github.com/lavanyashukla) and [Carey Phelps](https://github.com/cvphelps) for their continuous feedback ;
 * [Google Colab](https://colab.research.google.com/) for letting people access free GPU!
