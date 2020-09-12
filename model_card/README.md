@@ -1,6 +1,6 @@
 ---
 language: en
-thumbnail: https://github.com/borisdayma/huggingtweets/blob/master/img/logo_share.png?raw=true
+thumbnail: SOCIAL_LINK
 tags:
 - huggingtweets
 widget:
