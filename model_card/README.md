@@ -102,7 +102,7 @@ In addition, the data present in the user's tweets further affects the text gene
 
 </section>
 
-[![Follow](https://img.shields.io/twitter/follow/borisdayma?style=social)](https://twitter.com/borisdayma)
+[![Follow](https://img.shields.io/twitter/follow/borisdayma?style=social)](https://twitter.com/intent/follow?screen_name=borisdayma)
 
 <section class='prose'>
 For more details, visit the project repository.

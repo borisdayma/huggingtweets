@@ -61,7 +61,7 @@ I still have more research to do:
 
 *Built by Boris Dayma*
 
-[![Follow](https://img.shields.io/twitter/follow/borisdayma?style=social)](https://twitter.com/borisdayma)
+[![Follow](https://img.shields.io/twitter/follow/borisdayma?style=social)](https://twitter.com/intent/follow?screen_name=borisdayma)
 
 My main goals with this project are:
 
