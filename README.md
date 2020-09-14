@@ -2,7 +2,7 @@
 
 *Create in 5 minutes a tweet generator based on your favorite Tweeter*
 
-![HuggingTweets](img/logo.png)
+<img src="img/logo.png" width="280">
 
 ## [Make my own model with the demo →](https://colab.research.google.com/github/borisdayma/huggingtweets/blob/master/huggingtweets-demo.ipynb)
 
