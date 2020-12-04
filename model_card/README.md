@@ -109,5 +109,3 @@ For more details, visit the project repository.
 </section>
 
 [![GitHub stars](https://img.shields.io/github/stars/borisdayma/huggingtweets?style=social)](https://github.com/borisdayma/huggingtweets)
-
-<!--- random size file RANDOM_SZ -->
