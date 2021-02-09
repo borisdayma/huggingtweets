@@ -7,22 +7,11 @@ widget:
 - text: "My dream is"
 ---
 
-<link rel="stylesheet" href="https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css">
-
-<style>
-@media (prefers-color-scheme: dark) {
-  .prose { color: #E2E8F0 !important; }
-  .prose h2, .prose h3, .prose a, .prose thead { color: #F7FAFC !important; }
-}
-</style>
-
-<section class='prose'>
-
 <div>
 <div style="width: 132px; height:132px; border-radius: 50%; background-size: cover; background-image: url('USER_PROFILE')">
 </div>
 <div style="margin-top: 8px; font-size: 19px; font-weight: 800">USER_NAME 🤖 AI Bot </div>
-<div style="font-size: 15px; color: #657786">@USER_HANDLE bot</div>
+<div style="font-size: 15px">@USER_HANDLE bot</div>
 </div>
 
 I was made with [huggingtweets](https://github.com/borisdayma/huggingtweets).
@@ -41,32 +30,12 @@ To understand how the model was developed, check the [W&B report](https://app.wa
 
 The model was trained on [@USER_HANDLE's tweets](https://twitter.com/USER_HANDLE).
 
-<table style='border-width:0'>
-<thead style='border-width:0'>
-<tr style='border-width:0 0 1px 0; border-color: #CBD5E0'>
-<th style='border-width:0'>Data</th>
-<th style='border-width:0'>Quantity</th>
-</tr>
-</thead>
-<tbody style='border-width:0'>
-<tr style='border-width:0 0 1px 0; border-color: #E2E8F0'>
-<td style='border-width:0'>Tweets downloaded</td>
-<td style='border-width:0'>TWEETS_DL</td>
-</tr>
-<tr style='border-width:0 0 1px 0; border-color: #E2E8F0'>
-<td style='border-width:0'>Retweets</td>
-<td style='border-width:0'>RETWEETS</td>
-</tr>
-<tr style='border-width:0 0 1px 0; border-color: #E2E8F0'>
-<td style='border-width:0'>Short tweets</td>
-<td style='border-width:0'>SHORT_TWEETS</td>
-</tr>
-<tr style='border-width:0'>
-<td style='border-width:0'>Tweets kept</td>
-<td style='border-width:0'>TWEETS_KEPT</td>
-</tr>
-</tbody>
-</table>
+| Data | Quantity |
+| --- | --- |
+| Tweets downloaded | TWEETS_DL |
+| Retweets | RETWEETS |
+| Short tweets | SHORT_TWEETS |
+| Tweets kept | TWEETS_KEPT |
 
 [Explore the data](WANDB_PREPROCESS/artifacts), which is tracked with [W&B artifacts](https://docs.wandb.com/artifacts) at every step of the pipeline.
 
@@ -78,19 +47,18 @@ Hyperparameters and metrics are recorded in the [W&B training run](WANDB_TRAIN) 
 
 At the end of training, [the final model](WANDB_TRAIN/artifacts) is logged and versioned.
 
-## Intended uses & limitations
-
-### How to use
+## How to use
 
 You can use this model directly with a pipeline for text generation:
 
-<pre><code><span style="color:#03A9F4">from</span> transformers <span style="color:#03A9F4">import</span> pipeline
-generator = pipeline(<span style="color:#FF9800">'text-generation'</span>,
-                     model=<span style="color:#FF9800">'huggingtweets/USER_HANDLE'</span>)
-generator(<span style="color:#FF9800">"My dream is"</span>, num_return_sequences=<span style="color:#8BC34A">5</span>)</code></pre>
+```python
+from transformers import pipeline
+generator = pipeline('text-generation',
+                     model='huggingtweets/USER_HANDLE')
+generator("My dream is", num_return_sequences=5)
+```
 
-
-### Limitations and bias
+## Limitations and bias
 
 The model suffers from [the same limitations and bias as GPT-2](https://huggingface.co/gpt2#limitations-and-bias).
 
@@ -100,12 +68,8 @@ In addition, the data present in the user's tweets further affects the text gene
 
 *Built by Boris Dayma*
 
-</section>
-
 [![Follow](https://img.shields.io/twitter/follow/borisdayma?style=social)](https://twitter.com/intent/follow?screen_name=borisdayma)
 
-<section class='prose'>
 For more details, visit the project repository.
-</section>
 
 [![GitHub stars](https://img.shields.io/github/stars/borisdayma/huggingtweets?style=social)](https://github.com/borisdayma/huggingtweets)
