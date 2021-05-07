@@ -10,13 +10,13 @@ widget:
 <div class="flex flex-col">
     <div class="flex" style="line-height: 1.25;">
         <div
-			style="display:DISPLAY1; margin-left: 4px; margin-right: 4px; width: 92px; height:92px; border-radius: 50%; background-size: cover; background-image: url(&#39;URL1&#39;)">
+			style="display:DISPLAY_1; margin-left: 4px; margin-right: 4px; width: 92px; height:92px; border-radius: 50%; background-size: cover; background-image: url(&#39;USER_PROFILE_1&#39;)">
         </div>
         <div
-            style="display:DISPLAY2; margin-left: 4px; margin-right: 4px; width: 92px; height:92px; border-radius: 50%; background-size: cover; background-image: url(&#39;URL2&#39;)">
+            style="display:DISPLAY_2; margin-left: 4px; margin-right: 4px; width: 92px; height:92px; border-radius: 50%; background-size: cover; background-image: url(&#39;USER_PROFILE_2&#39;)">
         </div>
         <div
-            style="display:DISPLAY3; margin-left: 4px; margin-right: 4px; width: 92px; height:92px; border-radius: 50%; background-size: cover; background-image: url(&#39;URL3&#39;)">
+            style="display:DISPLAY_3; margin-left: 4px; margin-right: 4px; width: 92px; height:92px; border-radius: 50%; background-size: cover; background-image: url(&#39;USER_PROFILE_3&#39;)">
         </div>
         <div style="text-align: center; margin-top: 3px; font-size: 16px; font-weight: 800">🤖 AI BOT 🤖</div>
         <div style="text-align: center; font-size: 16px; font-weight: 800">USER_NAME</div>
