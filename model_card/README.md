@@ -7,8 +7,8 @@ widget:
 - text: "My dream is"
 ---
 
-<div class="inline-flex flex-col">
-    <div class="flex" style="line-height: 1.25;">
+<div class="inline-flex flex-col" style="line-height: 1.5;">
+    <div class="flex">
         <div
 			style="display:DISPLAY_1; margin-left: 4px; margin-right: 4px; width: 92px; height:92px; border-radius: 50%; background-size: cover; background-image: url(&#39;USER_PROFILE_1&#39;)">
         </div>
